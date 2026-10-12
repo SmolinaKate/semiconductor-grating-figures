@@ -1,0 +1,10 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated figures (written to Figs/, not committed)
+*.png
+*.pdf
+
+# Manuscript / large raw data kept locally
+*.docx
+Field3.txt
