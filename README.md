@@ -26,7 +26,7 @@ jupyter notebook notebooks/
 ```
 
 Run the notebooks from inside the `notebooks/` folder (paths to `../data/` are relative).
-Running a notebook regenerates its figure (`*.png`, `*.pdf`) next to the notebook.
+Running a notebook regenerates its figure (`*.png`, `*.pdf`) in `../Figs/`.
 
 ## Data
 
