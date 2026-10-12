@@ -1,7 +1,7 @@
 # Jupyter
 .ipynb_checkpoints/
 
-# Generated figures (written to Figs/, not committed)
+# Generated figures (created when notebooks run)
 *.png
 *.pdf
 

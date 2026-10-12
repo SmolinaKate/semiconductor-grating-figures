@@ -15,7 +15,6 @@ Each notebook reproduces one figure and compares the analytical result with the 
 │   ├── Field3.txt.gz          # field map z, x, |Ey|, ... (gzipped)
 │   ├── e_complex.txt          # dielectric grating sweep
 │   └── e_complex_g_no_gamma.txt
-├── Figs/                      # figures are written here when notebooks run
 └── README.md
 ```
 
@@ -27,9 +26,8 @@ jupyter notebook notebooks/
 ```
 
 Run the notebooks from inside the `notebooks/` folder (paths to `../data/` are relative).
-Running a notebook regenerates its figure into `Figs/` (`*.png`, `*.pdf`). These
-generated files are git-ignored on purpose — delete those lines in `.gitignore` if you
-want to commit the figures themselves.
+Running a notebook regenerates its figure (`*.png`, `*.pdf`) next to the notebook.
+The generated image files are git-ignored.
 
 ## Data
 
